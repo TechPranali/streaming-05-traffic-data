@@ -29,7 +29,6 @@ The consumer script (`consumer.py`) receives traffic data from the RabbitMQ exch
 
 #### Step 1: Start the RabbitMQ Server
 Ensure the RabbitMQ server is running on your local machine. You can start it using the command:
-```bash
 rabbitmq-server
 
 #### Step 2: Run the Producer
@@ -45,7 +44,7 @@ python consumer.py
 
 ### Producer Consumer Console Output
 
-![The Producer Consumer Console](image.png)
+![The Producer Consumer Console](<images/Producer Consumer Console Output.png>)
 
 ### Graph Visualization
 
@@ -54,4 +53,4 @@ python consumer.py
 - **X-axis** (Time): The time at which the traffic data was received.
 - **Y-axis** (Vehicle Count): The number of vehicles counted at each location and time.
 
-![Graphical Representation of Data](image-1.png)
+![Graphical Representation of Trafic Data](<images/Graphical Representation of Trafic Data.png>)
